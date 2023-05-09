@@ -26,7 +26,11 @@ export default function Root() {
         },
         {
           path: "/about",
-          element: <div>About page</div>,
+          element: (
+            <div>
+              <a href="deeplinking://homescreen">Go to home screen</a>
+            </div>
+          ),
         },
         {
           path: "/posts/:id",
