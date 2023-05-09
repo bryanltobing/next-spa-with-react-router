@@ -29,6 +29,7 @@ export default function Root() {
           element: (
             <div>
               <a href="deeplinking://homescreen">Go to home screen</a>
+              <a href="deeplinking://savingscreen">Go to savings screen</a>
             </div>
           ),
         },
